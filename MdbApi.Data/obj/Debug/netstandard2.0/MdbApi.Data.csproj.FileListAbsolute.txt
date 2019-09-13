@@ -1,0 +1,12 @@
+/home/omar/Documents/netCore/MdbApi/MdbApi.Data/bin/Debug/netstandard2.0/MdbApi.Data.deps.json
+/home/omar/Documents/netCore/MdbApi/MdbApi.Data/bin/Debug/netstandard2.0/MdbApi.Data.dll
+/home/omar/Documents/netCore/MdbApi/MdbApi.Data/bin/Debug/netstandard2.0/MdbApi.Data.pdb
+/home/omar/Documents/netCore/MdbApi/MdbApi.Data/bin/Debug/netstandard2.0/MdbApi.Domain.dll
+/home/omar/Documents/netCore/MdbApi/MdbApi.Data/bin/Debug/netstandard2.0/MdbApi.Domain.pdb
+/home/omar/Documents/netCore/MdbApi/MdbApi.Data/obj/Debug/netstandard2.0/MdbApi.Data.csprojAssemblyReference.cache
+/home/omar/Documents/netCore/MdbApi/MdbApi.Data/obj/Debug/netstandard2.0/MdbApi.Data.csproj.CoreCompileInputs.cache
+/home/omar/Documents/netCore/MdbApi/MdbApi.Data/obj/Debug/netstandard2.0/MdbApi.Data.AssemblyInfoInputs.cache
+/home/omar/Documents/netCore/MdbApi/MdbApi.Data/obj/Debug/netstandard2.0/MdbApi.Data.AssemblyInfo.cs
+/home/omar/Documents/netCore/MdbApi/MdbApi.Data/obj/Debug/netstandard2.0/MdbApi.Data.csproj.CopyComplete
+/home/omar/Documents/netCore/MdbApi/MdbApi.Data/obj/Debug/netstandard2.0/MdbApi.Data.dll
+/home/omar/Documents/netCore/MdbApi/MdbApi.Data/obj/Debug/netstandard2.0/MdbApi.Data.pdb

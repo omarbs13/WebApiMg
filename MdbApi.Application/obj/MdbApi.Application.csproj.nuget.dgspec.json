@@ -1,0 +1,182 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/omar/Documents/netCore/MdbApi/MdbApi.Application/MdbApi.Application.csproj": {}
+  },
+  "projects": {
+    "/home/omar/Documents/netCore/MdbApi/MdbApi.Application/MdbApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/omar/Documents/netCore/MdbApi/MdbApi.Application/MdbApi.Application.csproj",
+        "projectName": "MdbApi.Application",
+        "projectPath": "/home/omar/Documents/netCore/MdbApi/MdbApi.Application/MdbApi.Application.csproj",
+        "packagesPath": "/home/omar/.nuget/packages/",
+        "outputPath": "/home/omar/Documents/netCore/MdbApi/MdbApi.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/omar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/omar/Documents/netCore/MdbApi/MdbApi.Data/MdbApi.Data.csproj": {
+                "projectPath": "/home/omar/Documents/netCore/MdbApi/MdbApi.Data/MdbApi.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/omar/Documents/netCore/MdbApi/MdbApi.Data/MdbApi.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/omar/Documents/netCore/MdbApi/MdbApi.Data/MdbApi.Data.csproj",
+        "projectName": "MdbApi.Data",
+        "projectPath": "/home/omar/Documents/netCore/MdbApi/MdbApi.Data/MdbApi.Data.csproj",
+        "packagesPath": "/home/omar/.nuget/packages/",
+        "outputPath": "/home/omar/Documents/netCore/MdbApi/MdbApi.Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/omar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/omar/Documents/netCore/MdbApi/MdbApi.Domain/MdbApi.Domain.csproj": {
+                "projectPath": "/home/omar/Documents/netCore/MdbApi/MdbApi.Domain/MdbApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/omar/Documents/netCore/MdbApi/MdbApi.Domain/MdbApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/omar/Documents/netCore/MdbApi/MdbApi.Domain/MdbApi.Domain.csproj",
+        "projectName": "MdbApi.Domain",
+        "projectPath": "/home/omar/Documents/netCore/MdbApi/MdbApi.Domain/MdbApi.Domain.csproj",
+        "packagesPath": "/home/omar/.nuget/packages/",
+        "outputPath": "/home/omar/Documents/netCore/MdbApi/MdbApi.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/omar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
