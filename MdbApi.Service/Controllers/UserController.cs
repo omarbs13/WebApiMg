@@ -50,7 +50,7 @@ namespace MdbApi.Service.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody]UserModel userModel)
+        public async Task<IActionResult> Post([FromBody]UserModelAdd userModel)
         {
             if (userModel == null)
                 return BadRequest();

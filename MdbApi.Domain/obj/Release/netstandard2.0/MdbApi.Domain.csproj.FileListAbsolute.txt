@@ -1,0 +1,9 @@
+/home/omar/Documents/netCore/MdbApi/MdbApi.Domain/bin/Release/netstandard2.0/MdbApi.Domain.deps.json
+/home/omar/Documents/netCore/MdbApi/MdbApi.Domain/bin/Release/netstandard2.0/MdbApi.Domain.dll
+/home/omar/Documents/netCore/MdbApi/MdbApi.Domain/bin/Release/netstandard2.0/MdbApi.Domain.pdb
+/home/omar/Documents/netCore/MdbApi/MdbApi.Domain/obj/Release/netstandard2.0/MdbApi.Domain.csprojAssemblyReference.cache
+/home/omar/Documents/netCore/MdbApi/MdbApi.Domain/obj/Release/netstandard2.0/MdbApi.Domain.csproj.CoreCompileInputs.cache
+/home/omar/Documents/netCore/MdbApi/MdbApi.Domain/obj/Release/netstandard2.0/MdbApi.Domain.AssemblyInfoInputs.cache
+/home/omar/Documents/netCore/MdbApi/MdbApi.Domain/obj/Release/netstandard2.0/MdbApi.Domain.AssemblyInfo.cs
+/home/omar/Documents/netCore/MdbApi/MdbApi.Domain/obj/Release/netstandard2.0/MdbApi.Domain.dll
+/home/omar/Documents/netCore/MdbApi/MdbApi.Domain/obj/Release/netstandard2.0/MdbApi.Domain.pdb

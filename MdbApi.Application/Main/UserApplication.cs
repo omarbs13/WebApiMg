@@ -21,14 +21,14 @@ namespace MdbApi.Application.Main
             _mapper = mapper;
             _logger = logger;
         }
-        public async Task<Response<UserModel>> Add(UserModel item)
+        public async Task<Response<UserModelAdd>> Add(UserModelAdd item)
         {
-            var response = new Response<UserModel>();
+            var response = new Response<UserModelAdd>();
             try
             {
                 var userToInst = _mapper.Map<User>(item);
                 var user = await _userRepository.Add(userToInst);
-                response.Data = _mapper.Map<UserModel>(user);
+                response.Data = _mapper.Map<UserModelAdd>(user);
                 if (response.Data != null)
                 {
                     response.IsSuccess = true;
