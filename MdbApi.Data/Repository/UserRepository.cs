@@ -50,7 +50,7 @@ namespace MdbApi.Data.Repository
         {
             var filter = Builders<User>.Filter.Eq(s => s.Id, id);
             var update = Builders<User>.Update
-                            .Set(s => s.Email, body);
+                            .Set(s => s.RoleName, body);
             //   .CurrentDate(s => s.UpdatedOn);
 
             UpdateResult actionResult

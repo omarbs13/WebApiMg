@@ -1,7 +1,6 @@
 ﻿using MongoDB.Driver;
 using Microsoft.Extensions.Options;
 using MdbApi.Domain.Entities;
-using Microsoft.Extensions.Configuration;
 
 namespace MdbApi.Data
 {
@@ -19,6 +18,14 @@ namespace MdbApi.Data
             get
             {
                 return _database.GetCollection<User>("User");
+            }
+        }
+
+         public IMongoCollection<Person> Persons
+        {
+            get
+            {
+                return _database.GetCollection<Person>("Person");
             }
         }
     }

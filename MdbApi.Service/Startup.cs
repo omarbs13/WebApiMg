@@ -65,6 +65,9 @@ namespace MdbApi.Service
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserApplication, UserApplication>();
 
+            services.AddScoped<IPersonRepository, PersonRepository>();
+            services.AddScoped<IPersonApplication, PersonApplication>();
+
             services.AddScoped(typeof(IAppLogger<>), typeof(LoggerAdapter<>));
 
 

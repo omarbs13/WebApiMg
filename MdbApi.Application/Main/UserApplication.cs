@@ -11,7 +11,6 @@ namespace MdbApi.Application.Main
 {
     public class UserApplication : IUserApplication
     {
-
         private readonly IUserRepository _userRepository;
         private readonly IMapper _mapper;
         private readonly IAppLogger<UserApplication> _logger;

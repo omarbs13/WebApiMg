@@ -41,7 +41,7 @@ namespace MdbApi.Application.Main
                     Log(logMessage, w, type);
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
             }
         }
@@ -57,7 +57,7 @@ namespace MdbApi.Application.Main
                 txtWriter.WriteLine("  :{0}", logMessage);
                 txtWriter.WriteLine("-------------------------------");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
             }
         }
